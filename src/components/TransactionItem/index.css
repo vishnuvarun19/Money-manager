@@ -1,0 +1,31 @@
+.transaction-item-pro {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.trans-item-para {
+  margin-left: 30px;
+}
+
+.delete-icon {
+  height: 3vh;
+}
+
+.button-delete {
+  background-color: transparent;
+  border: none;
+  margin-left: 40px;
+}
+@media screen and (max-width: 576px) {
+  .transaction-item-pro {
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .trans-item-para {
+    margin-left: 0px;
+  }
+  .button-delete {
+    margin-left: 0px;
+  }
+}

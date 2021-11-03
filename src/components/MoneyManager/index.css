@@ -1,0 +1,125 @@
+.page-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 1000px;
+}
+.top-section-pro {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  width: 1200px;
+  background-size: cover;
+  padding: 20px;
+}
+
+.history-section {
+  padding: 20px;
+  overflow: auto;
+}
+
+.span-pro {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.second-section-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.formclass-pro {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  border: 1px solid;
+}
+
+.input-class-pro {
+  height: 30px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.button-pro {
+  height: 30px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.history-section {
+  padding: 40px;
+  border: 1px solid;
+  width: 600px;
+}
+
+.addTransaction-pro {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.transaction-pro {
+  border: 1px solid;
+  justify-content: space-around;
+  display: flex;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 576px) {
+  .top-section-pro {
+    width: 270px;
+    background-size: cover;
+    align-items: flex-end;
+  }
+  .top-heading {
+    font-size: 12px;
+  }
+  .top-para {
+    font-size: 12px;
+  }
+  .second-section-pro {
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .third-section {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .history-section {
+    width: 270px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .formclass-pro {
+    width: 270px;
+    padding: 20px;
+  }
+  .input-class-pro {
+    width: 200px;
+  }
+}
